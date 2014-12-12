@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Quafzi_SquareImages>
+            <version>1.0.0</version>
+        </Quafzi_SquareImages>
+    </modules>
+    <global>
+        <helpers>
+            <quafzi_squareimages>
+                <class>Quafzi_SquareImages_Helper</class>
+            </quafzi_squareimages>
+            <catalog>
+                <rewrite>
+                    <image>Quafzi_SquareImages_Helper_Image</image>
+                </rewrite>
+            </catalog>
+        </helpers>
+    </global>
+    <phpunit>
+        <suite>
+            <modules>
+                <Quafzi_SquareImages />
+            </modules>
+        </suite>
+    </phpunit>
+</config>
