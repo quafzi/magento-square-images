@@ -1,0 +1,15 @@
+{
+    "name": "quafzi/square-images",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "Show square images by cropping them",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name": "Thomas Birke",
+            "email": "tbirke@netextreme.de"
+        }
+    ]
+}
